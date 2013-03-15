@@ -132,7 +132,9 @@
  
 			<div class="tab-content">
 			<div class="tab-pane active" id="home">	
-			<body data-target="/aboutus/news/mainbody,9670,en.html">WATER BURST - BALLINASTICK
+			<div id="divid"><a onclick="callUrl('urlpath')" href="http://www.google.ie">WATER BURST - BALLINASTICK</a></div>
+			<div id="divid"><a onclick="callUrl('urlpath')" href="http://www.southtippcoco.ie">Essential Water Maintenance Works, Ardfinnan</a></div>
+			<div id="divid"><a onclick="callUrl('urlpath')" href="http://www.southtippcoco.ie">SOUTH TIPPERARY GATHERING EVENTS 2013</a></div>
 			</div>
 			<div class="tab-pane" id="profile">Test2</div>
 			</div>
@@ -234,7 +236,11 @@
 			$('#myTab a:first').tab('show');
 			})
 			</script>
-
+			<script>
+			function callUrl (URL) {
+  $('#divid').load(URL);
+}
+</script>
 			
   
   </body>
