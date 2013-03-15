@@ -5964,6 +5964,7 @@ a.badge:focus {
   position: relative;
   margin-bottom: 20px;
   line-height: 1;
+  left: 20px; /*changed to push carousel into page DMW 15032013*/
 }
 
 .carousel-inner {
@@ -6085,7 +6086,7 @@ a.badge:focus {
 }
 
 .carousel-caption {
-color: #ffffff;
+  color: #ffffff;
   position: absolute; 
   right: 0;
   bottom: 0;
